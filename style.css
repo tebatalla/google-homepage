@@ -7,6 +7,8 @@
 }
 html,body{
 	height:100%;
+	font-family: arial,sans-serif;
+	font-size: 16px;
 }
 #logo{
 	width: 300px;
@@ -18,4 +20,15 @@ html,body{
 }
 .buttons{
 	margin-top: 10px;
+}
+.navbar{
+	float:right;
+	margin-right:50px;
+}
+.navlinks{
+	list-style: none;
+}
+.navlink{
+	display: inline;
+	padding-right: 20px;
 }
